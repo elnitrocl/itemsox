@@ -10,6 +10,7 @@
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ecola_can`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 2500,
+			description: 'Una lata de refresco sabor cola, alta en azucares y conservantes, se suele usar en la fontaneria para destapar tuberias'
 			notification = 'You quenched your thirst with cola'
 		}
 	},
@@ -22,6 +23,7 @@
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `ng_proc_sodacan_01b`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, <---- CAMBIAR PROP por sprunk
 			usetime = 2500,
+			description: 'Una lata de refresco Sprunk, alta en azucares y conservantes'
 			notification = 'You quenched your thirst with Sprunk'
 		}
 	},
@@ -34,6 +36,7 @@
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `p_ing_coffeecup_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, 
 			usetime = 2500,
+			description: 'Es la bebida que se obtiene a partir de los granos tostados y molidos de los frutos de la planta del café (cafeto); es altamente estimulante por su contenido de cafeína, una sustancia psicoactiva, este producto es uno de los más comercializados del mundo y una de las tres bebidas más consumidas del mundo (junto con el agua y el té).'
 			notification = 'You quenched your thirst with a hot coffee'
 		}
 	},
@@ -46,6 +49,7 @@
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `p_ing_coffeecup_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, 
 			usetime = 2500,
+			description: 'Infusión de las hojas y brotes de la planta del té (Camellia sinensis), la popularidad de esta bebida es solamente sobrepasada por el agua, su sabor es fresco, ligeramente amargo y astringente; este gusto es agradable para mucha gente'
 			notification = 'You quenched your thirst with a fresh Tea'
 		}
 	},
@@ -58,6 +62,7 @@
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `ng_proc_sodabot_01a`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, 
 			usetime = 2500,
+			description: 'Una botella de 500cc de refresco Sprunk, alta en azucares y conservantes, si no te las vas a beber la puedes utilizar para destapar tu baño'
 			notification = 'You quenched your thirst with a fresh eCole'
 		}
 	},
@@ -70,6 +75,7 @@
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_beer_bottle`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, 
 			usetime = 2500,
+			description: 'Bebida alcoholica con 5,0 % alc. vol., elaborada por la cervecería Los Santos Pilsener CO, bajo ningún protocolo sanitario, beber con moderación'
 			notification = 'You quenched your thirst with a fresh Beer'
 		}
 	},
@@ -82,6 +88,7 @@
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_cs_milk_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, 
 			usetime = 2500,
+			description: 'Leche de vaca feliz, ordeñada en las granjas de Grapeseed'
 			notification = 'You drink fresh milk'
 		}
 	},
