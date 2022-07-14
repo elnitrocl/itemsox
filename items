@@ -171,5 +171,40 @@
 			usetime = 2500,
 			notification = 'Comenzare por las papas!'
 		},
-			
 		
+  	['cbellc'] = {
+		label = 'Combo Cluckin Bell',
+		weight = 220,
+		description = 'Trae papitas, una bebida pequeña y una hamburguesa de pollo',
+		client = {
+			status = { hunger = 200000, thirst = 200000 },
+			anim = 'eating',
+			prop = 'prop_food_cb_bag_02',
+			usetime = 2500,
+			notification = 'No es lo que esperaba pero me sirve'
+		},		
+			
+  	['fries'] = {
+		label = 'Papas Fritas',
+		weight = 220,
+		description = 'Patatas fritas tipicas, se les nota un exceso de aceite pero saben bien',
+		client = {
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'prop_food_bs_chips',
+			usetime = 2500,
+			notification = 'Estan algo saladas y desprenden un poco de aceite'
+		},
+		
+	 ['cookies'] = {
+		label = 'Galletas',
+		weight = 220,
+		description = 'Una bolsa de galletas con chips de chocolate',
+		client = {
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'prop_food_bs_bag_04',
+			usetime = 2500,
+			notification = 'Son dulces...pero algo duras'
+		},		
+
