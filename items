@@ -29,7 +29,7 @@
 	},
   
     ['coffee'] = {
-		label = 'Coffe',
+		label = 'Café',
 		weight = 350,
 		description = 'Es la bebida que se obtiene a partir de los granos tostados y molidos de los frutos de la planta del café (cafeto); es altamente estimulante por su contenido de cafeína, una sustancia psicoactiva, este producto es uno de los más comercializados del mundo y una de las tres bebidas más consumidas del mundo (junto con el agua y el té).',
 		client = {
@@ -42,7 +42,7 @@
 	},
   
     ['tea'] = {
-		label = 'Tea',
+		label = 'Té',
 		weight = 350,
 		description = 'Infusión de las hojas y brotes de la planta del té (Camellia sinensis), la popularidad de esta bebida es solamente sobrepasada por el agua, su sabor es fresco, ligeramente amargo y astringente; este gusto es agradable para mucha gente',
 		client = {
@@ -55,7 +55,7 @@
 	},
   
    ['sodabot'] = {
-		label = 'eCola Bottle',
+		label = 'Botella de eCola',
 		weight = 350,
 		description = 'Una botella de 500cc de refresco Sprunk, alta en azucares y conservantes, si no te las vas a beber la puedes utilizar para destapar tu baño',
 		client = {
@@ -68,7 +68,7 @@
 	},
 	
    ['beer'] = {
-		label = 'Beer',
+		label = 'Cerveza',
 		weight = 350,
 		description = 'Bebida alcoholica con 5,0 % alc. vol., elaborada por la cervecería Los Santos Pilsener CO, bajo ningún protocolo sanitario, beber con moderación',
 		client = {
@@ -81,7 +81,7 @@
 	},
 	
    ['milk'] = {
-		label = 'Milk',
+		label = 'Leche',
 		weight = 350,
 		description = 'Leche de vaca feliz, ordeñada en las granjas de Grapeseed.',
 		client = {
@@ -102,11 +102,36 @@
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_vodka_bottle`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, 
 			usetime = 2500,
-			notification = 'Bebiste un sorbo de la madre patria'
+			notification = 'Bebiste un sorbo de la madre patria!'
 		}
 	},
   
   
+    ['wine'] = {
+		label = 'Vino',
+		weight = 350,
+		description = 'Bebida alcoholica producida en base a la uva obtenida en los viñedos Marlowe',
+		client = {
+			status = { thirst = 300000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_wine_glass_s`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, 
+			usetime = 2500,
+			notification = 'Mmmm está Algo acido'
+		}
+	},
+	
+	['wineb'] = {
+		label = 'Botella Vino',
+		weight = 350,
+		description = 'Bebida alcoholica producida en base a la uva obtenida en los viñedos Marlowe',
+		client = {
+			status = { thirst = 500000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_wine_bot_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) }, 
+			usetime = 2500,
+			notification = 'Mmmm está Algo acido'
+		}
+	},
   
   
   -------FOOD--------
