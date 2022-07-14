@@ -135,3 +135,41 @@
   
   
   -------FOOD--------
+  
+  	['burger'] = {
+		label = 'Burger',
+		weight = 220,
+		description = 'Deliciosa hamburguesa con una delgada lamina de queso fundido',
+		client = {
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			notification = 'mmmm podrian traer mas queso'
+		},
+		
+  	['taco'] = {
+		label = 'Taco',
+		weight = 220,
+		description = 'Deliciosa masa de origen mexicano rellena de ingrendientes tipicos',
+		client = {
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'prop_taco_01',
+			usetime = 2500,
+			notification = 'Vaya, estaba algo picante'
+		},
+		
+  	['bshotc'] = {
+		label = 'Combo Burger Shot',
+		weight = 220,
+		description = 'Trae papitas, una bebida pequeña y algo que parecen ser caramelos',
+		client = {
+			status = { hunger = 200000, thirst = 200000 },
+			anim = 'eating',
+			prop = 'ng_proc_food_bag01a',
+			usetime = 2500,
+			notification = 'Comenzare por las papas!'
+		},
+			
+		
