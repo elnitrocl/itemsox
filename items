@@ -122,7 +122,7 @@
 	
 	['wineb'] = {
 		label = 'Botella Vino',
-		weight = 350,
+		weight = 700,
 		description = 'Bebida alcoholica producida en base a la uva obtenida en los viñedos Marlowe',
 		client = {
 			status = { thirst = 500000 },
