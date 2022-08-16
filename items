@@ -427,7 +427,7 @@
 			notification = '0'
 		},
 		
-['planoe'] = {
+['planof'] = {
 		label = 'Plano Banco "Fleeca"',
 		weight = 100,
 		description = 'Es el plano del banco mas grande del estado, ',
