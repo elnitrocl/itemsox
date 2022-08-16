@@ -208,3 +208,251 @@
 			notification = 'Son dulces...pero algo duras'
 		},		
 
+-------ITEMS--------
+
+ ['usb'] = {
+		label = 'Usb',
+		weight = 100,
+		description = 'Unidad de almacenamiento de datos que puedes conectar a ordenadores u otros dispositivos electrónicos',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},		
+
+ ['estatua'] = {
+		label = 'Estatua antigua',
+		weight = 100,
+		description = 'Una vieja estatua con forma de mujer, quizás algún coleccionista quiera comprarla',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},	
+		
+ ['doblon'] = {
+		label = 'Doblón de plata',
+		weight = 100,
+		description = 'Un viejo doblón de plata con la inscrición 1820, debe haber caído de algún viejo barco',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+
+ ['doblono'] = {
+		label = 'Doblón de oro',
+		weight = 100,
+		description = 'Un viejo doblón de oro con la inscrición 1820, debe venderse muy bien',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+ ['chatarra'] = {
+		label = 'Chatarra',
+		weight = 100,
+		description = 'Chatarra, ¿necesita descripción?',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+ ['ropa'] = {
+		label = 'Ropa Vieja',
+		weight = 100,
+		description = 'Podrían ser los calzones de tu abuela, deberías reciclarlo',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+ ['zapato'] = {
+		label = 'Zapato viejo',
+		weight = 100,
+		description = 'Un antiguo zapato, algo roto y maloliente',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+---------------------------------ILEGALES---------------------------------------------------
+
+ ['lanza'] = {
+		label = 'Lanza térmica',
+		weight = 100,
+		description = 'Herramienta utilizada para fundir desde concreto a titanio',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+ ['soplete'] = {
+		label = 'Soplete',
+		weight = 100,
+		description = 'Herramienta utilizada para calentar o fundir metales',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+ ['tarjetab'] = {
+		label = 'Credencial de sucursal',
+		weight = 100,
+		description = 'Credencial con las inscripciones "Fleeca", se observa un codigo de barras en su parte inferior',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+ ['tarjetal'] = {
+		label = 'Credencial de laboratorio',
+		weight = 100,
+		description = 'Credencial con las inscripciones "Humane", se observa un codigo de barras en su parte inferior',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+ ['joya'] = {
+		label = 'Joyas',
+		weight = 100,
+		description = 'Joyas, por sus características deben ser de alto valor',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+	
+ ['cartar'] = {
+		label = 'Carta de recomendación',
+		weight = 100,
+		description = 'Una carta escrita en un idioma extranjero "Этот парень заслуживает доверия, дайте ему работу", quien te la dio sabrá donde entregarla',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+ ['planoa'] = {
+		label = 'Plano A',
+		weight = 100,
+		description = 'Es un trozo de plano, al parecer sería el subterraneo de algo',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+
+ ['planob'] = {
+		label = 'Plano B',
+		weight = 100,
+		description = 'Es un trozo de plano, al parecer sería un conjunto de oficinas y una boveda de seguridad',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+['planoc'] = {
+		label = 'Plano C',
+		weight = 100,
+		description = 'Es un trozo de plano, al parecer sería la red de alcantarillado de algo',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+['planod'] = {
+		label = 'Plano D',
+		weight = 100,
+		description = 'Es un trozo de plano, al parecer serían dos niveles superiores de un edificio',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+['planoe'] = {
+		label = 'Plano Banco "Pacific Standar"',
+		weight = 100,
+		description = 'Es el plano del banco mas grande del estado, ',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+['planoe'] = {
+		label = 'Plano Banco "Fleeca"',
+		weight = 100,
+		description = 'Es el plano del banco mas grande del estado, ',
+		client = {
+			status = { 0 },
+			anim = '0',
+			prop = '0',
+			usetime = 0,
+			notification = '0'
+		},
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
